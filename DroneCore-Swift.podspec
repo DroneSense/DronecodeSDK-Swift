@@ -22,5 +22,5 @@ Pod::Spec.new do |spec|
   spec.source          = { :http => "https://s3.eu-central-1.amazonaws.com/dronecode-sdk/dronecode-sdk-swift-#{currentVersion}.zip"}
   spec.vendored_frameworks = 'backend.framework','Dronecode_SDK_Swift.framework'
   spec.dependency 'SwiftGRPC', '= 0.4.2'
-  spec.dependency 'RxSwift', '= 4.0'
+  spec.dependency 'RxSwift', '~> 4.0'
 end
